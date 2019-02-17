@@ -12,7 +12,7 @@
 #         #
 ###########
 
-ID  PIN             »ÆµÆ(Conf)    À¶µÆ(On)  ÃðµÆ(Off)
+ID  PIN             é»„ç¯(Conf)    è“ç¯(On)  ç­ç¯(Off)
 1   3.3V / LEDx2 +
 2   GND
 3   Button +        High        High        High
