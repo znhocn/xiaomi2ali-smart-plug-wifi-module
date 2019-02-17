@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\zero\Documents\Hardware\Projects\Xiaomi2Ali-Smart-Plug-WIFI-Module\Xiaomi2Ali-Smart-Plug-WIFI-Module.sch</source>
-    <date>2019/2/6 20:42:41</date>
+    <date>2019/2/17 17:28:14</date>
     <tool>Eeschema (5.0.1)-4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -21,7 +21,7 @@
   <components>
     <comp ref="J1">
       <value>Conn_01x07</value>
-      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x07_P1.27mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -36,7 +36,7 @@
       <tstamp>5C5AD050</tstamp>
     </comp>
     <comp ref="R1">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -44,7 +44,7 @@
       <tstamp>5C5AD0AC</tstamp>
     </comp>
     <comp ref="R2">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -52,7 +52,7 @@
       <tstamp>5C5AD144</tstamp>
     </comp>
     <comp ref="D1">
-      <value>LED</value>
+      <value>LED_blue</value>
       <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -60,7 +60,7 @@
       <tstamp>5C5AD189</tstamp>
     </comp>
     <comp ref="D2">
-      <value>LED</value>
+      <value>LED_yellow</value>
       <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -69,7 +69,7 @@
     </comp>
     <comp ref="SW1">
       <value>SW_Push</value>
-      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3305A</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C5AD27D</tstamp>
@@ -169,11 +169,12 @@
   </libraries>
   <nets>
     <net code="1" name="Net-(J1-Pad6)">
-      <node ref="J1" pin="6"/>
       <node ref="J2" pin="1"/>
+      <node ref="J1" pin="6"/>
     </net>
     <net code="2" name="VCC">
       <node ref="D2" pin="2"/>
+      <node ref="J1" pin="1"/>
       <node ref="D1" pin="2"/>
       <node ref="J2" pin="2"/>
     </net>
@@ -182,29 +183,28 @@
       <node ref="D2" pin="1"/>
     </net>
     <net code="4" name="GND">
-      <node ref="J1" pin="7"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="J2" pin="3"/>
       <node ref="J1" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="SW1" pin="1"/>
     </net>
     <net code="5" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1"/>
       <node ref="R1" pin="2"/>
     </net>
-    <net code="6" name="Net-(J1-Pad3)">
+    <net code="6" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad3)">
       <node ref="J1" pin="3"/>
       <node ref="SW1" pin="2"/>
     </net>
-    <net code="7" name="Net-(J1-Pad4)">
-      <node ref="R1" pin="1"/>
+    <net code="8" name="Net-(J1-Pad4)">
       <node ref="J1" pin="4"/>
+      <node ref="R1" pin="1"/>
     </net>
-    <net code="8" name="Net-(J1-Pad5)">
-      <node ref="R2" pin="1"/>
+    <net code="9" name="Net-(J1-Pad5)">
       <node ref="J1" pin="5"/>
-    </net>
-    <net code="9" name="Net-(J1-Pad1)">
-      <node ref="J1" pin="1"/>
+      <node ref="R2" pin="1"/>
     </net>
   </nets>
 </export>

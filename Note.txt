@@ -1,0 +1,24 @@
+###############
+#       PIN 1 #    3.3V / LED*2 +
+#       PIN 2 #    GND
+#       PIN 3 #    Button +
+#       PIN 4 #    B_EN / LED_blue -
+#       PIN 5 #    R_EN / LED_yellow -
+#       PIN 6 #    Switch
+#       PIN 7 #    GND
+#         #####
+#         #
+#         #   Xiaomi Smart-Plug WiFi Module
+#         #
+###########
+
+ID  PIN             »ÆµÆ(Conf)    À¶µÆ(On)  ÃðµÆ(Off)
+1   3.3V / LEDx2 +
+2   GND
+3   Button +        High        High        High
+4   B_EN / LED_b -  High        Low         High
+5   R_EN / LED_y -  Unstable    High        High
+6   Switch          High        High        Low
+7   GND             
+
+LED Resistance = 1k

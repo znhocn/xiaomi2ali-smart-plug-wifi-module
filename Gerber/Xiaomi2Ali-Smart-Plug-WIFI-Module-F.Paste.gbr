@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.1)-4*
-G04 #@! TF.CreationDate,2019-02-16T16:55:34+08:00*
+G04 #@! TF.CreationDate,2019-02-17T19:59:15+08:00*
 G04 #@! TF.ProjectId,Xiaomi2Ali-Smart-Plug-WIFI-Module,5869616F6D6932416C692D536D617274,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.0.1)-4) date 2019/2/16 16:55:34*
+G04 Created by KiCad (PCBNEW (5.0.1)-4) date 2019/2/17 19:59:15*
 %MOMM*%
 %LPD*%
 G01*
@@ -16,7 +16,7 @@ G04 APERTURE LIST*
 %ADD12R,1.400000X1.600000*%
 G04 APERTURE END LIST*
 D10*
-G04 #@! TO.C,D1*
+G04 #@! TO.C,blue*
 G36*
 X142849504Y-76176204D02*
 X142873773Y-76179804D01*
@@ -168,7 +168,7 @@ D11*
 X142200000Y-74000000D03*
 G04 #@! TD*
 D10*
-G04 #@! TO.C,D2*
+G04 #@! TO.C,yellow*
 G36*
 X134549504Y-74276204D02*
 X134573773Y-74279804D01*
