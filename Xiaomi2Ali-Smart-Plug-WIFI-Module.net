@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\zero\Documents\Hardware\Projects\Xiaomi2Ali-Smart-Plug-WIFI-Module\Xiaomi2Ali-Smart-Plug-WIFI-Module.sch)
-    (date "2019/2/17 17:28:09")
+    (date "2019/2/20 15:01:21")
     (tool "Eeschema (5.0.1)-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -59,7 +59,7 @@
       (tstamp 5C5AD1F5))
     (comp (ref SW1)
       (value SW_Push)
-      (footprint Button_Switch_SMD:SW_SPST_TL3305A)
+      (footprint Button_Switch_SMD:SW_SPST_B3S-1000)
       (libsource (lib Switch) (part SW_Push) (description "Push button switch, generic, two pins"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C5AD27D)))
