@@ -1,6 +1,10 @@
-# Xiaomi2Ali Smart Plug WIFI Module
+# Xiaomi2Ali Smart Plug WiFi Module
 
 Xiaomi Smart Plug WiFi Module to Ali 86 Smart Plug Adapter board
+
+此项目是把从[米家智能插座基础版](https://www.mi.com/mj-socket/)里拆卸下来的 WiFi 模块转换成可供阿里智能插座-86型墙壁插座使用的模块。
+
+使用小米的 WiFi 模块替换原有阿里智能的 WiFi 模块，实现使用米家APP控制插座，并且支持小爱同学控制。
 
 ![](Images/IMG_0001.png)
 
