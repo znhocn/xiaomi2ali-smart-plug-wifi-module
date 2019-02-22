@@ -6,6 +6,10 @@ Xiaomi Smart Plug WiFi Module to Ali 86 Smart Plug Adapter board
 
 使用小米的 WiFi 模块替换原有阿里智能的 WiFi 模块，实现使用米家APP控制插座，并且支持小爱同学控制。
 
+目前米家生态链里没有直接使用 WiFi 的86型墙壁智能插座。
+
+支持阿里86型墙壁插座的 10A 与 16A 的 WiFi 模块兼容性。
+
 ![](Images/IMG_0001.png)
 
 发给 PCB 厂家生产时建议使用 [Rev.B](Gerber/Rev.B) 版本。
