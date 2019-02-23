@@ -26,3 +26,6 @@ BOM
 1206 LED yellow     x1
 1026 Resistance 1k  x2
 轻触开关 6*6*3.1mm  x1
+
+尺寸: 5*5 cm
+板厚: 1.2 mm
