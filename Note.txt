@@ -21,4 +21,8 @@ ID  PIN             黄灯(Conf)    蓝灯(On)  灭灯(Off)
 6   Switch          High        High        Low
 7   GND             
 
-LED Resistance = 1k
+BOM
+1206 LED blue       x1
+1206 LED yellow     x1
+1026 Resistance 1k  x2
+轻触开关 6*6*3.1mm  x1
